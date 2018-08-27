@@ -10,9 +10,10 @@
     var $scontacts = $('#contact-list-secondary');
     var $contactList = $('#contact-list');
 
-    $scontacts.hide();
-    $contactList.mouseenter(function(){ $scontacts.fadeIn(); });
-    $contactList.mouseleave(function(){ $scontacts.fadeOut(); });
+    /*讓contacts一直存在*/
+    //$scontacts.hide();
+    //$contactList.mouseenter(function(){ $scontacts.fadeIn(); });
+    //$contactList.mouseleave(function(){ $scontacts.fadeOut(); });
 
     /**
      * Tags & categories tab activation based on hash value. If hash is undefined then first tab is activated.
